@@ -1,0 +1,15 @@
+#left {
+    background-color: red; 
+    flex: 1;
+}
+#right {
+    background-color: blue;
+    flex: 3;
+}
+
+#home {background-color: green}
+
+#flex{
+    display: flex;
+    height: 100vh;
+}
