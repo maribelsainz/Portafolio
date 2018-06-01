@@ -1,15 +1,101 @@
-#left {
-    background-color: red; 
+body {
+    font-family: 'Oxygen', sans-serif;
+    margin: 0px;
+}
+
+#left { 
     flex: 1;
 }
 #right {
-    background-color: blue;
+    /* background-color: blue;  */
     flex: 3;
 }
 
-#home {background-color: green}
+#home {
+    /* background-color: green  */
+}
 
 #flex{
     display: flex;
     height: 100vh;
+}
+#info_home {
+    text-align: center;
+    
+}
+
+#info_home_list {
+    display: inline-block;
+    text-align: left;
+}
+
+#my_name {
+    text-align: center
+}
+
+#my_profesion {
+    text-align: center
+}
+#img_wrapper {
+    text-align: center;
+    margin: 30px auto 20px;
+    max-width: 110px;
+    
+}
+#foto_perfil {
+    border-radius: 50%;
+    width: 100px;
+    border: 2px solid #e5e5e5;
+}
+
+#box_flex_inferior {
+    text-align: center; 
+    display: block;
+    padding: 25px 0 30px; 
+}
+
+#my_profesion_menu {
+    text-align: center;
+}
+
+.menu_item a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+    display: block;
+    border-bottom: 1px solid #f5f5f5;
+    font-weight: bold;
+    position: relative;
+}
+
+.menu_item:first-child a{
+    border-top: 1px solid #f5f5f5;
+}
+
+#my_name_menu h1{
+
+    font-size: 25px;
+    text-align: center;
+}
+
+#my_profesion_menu h2 {
+    font-size: 15px;
+    color: #9c9c9c;
+    font-weight: 400;
+}
+
+.menu_item:hover{
+    background-color: #fcfcfc;
+}
+
+.menu_item:hover a::after {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: '';
+    width: 3px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #eee;
 }
