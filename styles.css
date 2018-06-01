@@ -34,7 +34,9 @@ body {
 }
 
 #my_profesion {
-    text-align: center
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700;
 }
 #img_wrapper {
     text-align: center;
