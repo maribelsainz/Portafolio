@@ -7,8 +7,10 @@ body {
     flex: 1;
 }
 #right {
-    /* background-color: blue;  */
     flex: 3;
+    background-image: url("img/christine-donaldson-643679-unsplash.jpg");
+    background-size: cover;
+
 }
 
 #home {
