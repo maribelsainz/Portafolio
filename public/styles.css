@@ -3,32 +3,35 @@ body {
     margin: 0px;
 }
 
-#left { 
+#left {
     flex: 1;
 }
+
 #right {
     flex: 3;
-    background-image: url("img/christine-donaldson-643679-unsplash.jpg");
+    background-image: url("img/Fondo\ Home\ -50.jpg");
     background-size: cover;
-
 }
 
 #home {
-    /* background-color: green  */
+    padding-top: 100px;
 }
 
-#flex{
+#flex {
     display: flex;
     height: 100vh;
 }
+
 #info_home {
     text-align: center;
-    
 }
 
 #info_home_list {
     display: inline-block;
     text-align: left;
+    list-style: none;
+    margin: 0;
+    padding: 15px 0 30px;
 }
 
 #my_name {
@@ -39,13 +42,15 @@ body {
     text-align: center;
     font-size: 21px;
     font-weight: 700;
+    margin: 15px;
 }
+
 #img_wrapper {
     text-align: center;
     margin: 30px auto 20px;
     max-width: 110px;
-    
 }
+
 #foto_perfil {
     border-radius: 50%;
     width: 100px;
@@ -53,16 +58,16 @@ body {
 }
 
 #box_flex_inferior {
-    text-align: center; 
+    text-align: center;
     display: block;
-    padding: 25px 0 30px; 
+    padding: 25px 0 30px;
 }
 
 #my_profesion_menu {
     text-align: center;
 }
 
-.menu_item a{
+.menu_item a {
     text-decoration: none;
     color: black;
     padding: 15px 20px;
@@ -72,12 +77,11 @@ body {
     position: relative;
 }
 
-.menu_item:first-child a{
+.menu_item:first-child a {
     border-top: 1px solid #f5f5f5;
 }
 
-#my_name_menu h1{
-
+#my_name_menu h1 {
     font-size: 25px;
     text-align: center;
 }
@@ -88,7 +92,7 @@ body {
     font-weight: 400;
 }
 
-.menu_item:hover{
+.menu_item:hover {
     background-color: #fcfcfc;
 }
 
@@ -102,4 +106,23 @@ body {
     height: 100%;
     margin: 0 auto;
     background-color: #eee;
+}
+
+.title {
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+#info_home_list li {
+    padding: 6px;
+}
+
+#info_home_list {
+    background-color: #ffffff6b;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#my_name {
+    font-size: 50px
 }
