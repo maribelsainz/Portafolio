@@ -9,29 +9,13 @@ body {
 
 #right {
     flex: 3;
-    background-image: url("img/Fondo\ Home.jpg");
-    background-size: cover;
-}
-
-#home {
-    padding-top: 100px;
+    background-color: #f5f5f5;
+    padding-left: 15px;
 }
 
 #flex {
     display: flex;
     height: 100vh;
-}
-
-#info_home {
-    text-align: center;
-}
-
-#info_home_list {
-    display: inline-block;
-    text-align: left;
-    list-style: none;
-    margin: 0;
-    padding: 15px 0 30px;
 }
 
 #my_name {
@@ -106,23 +90,4 @@ body {
     height: 100%;
     margin: 0 auto;
     background-color: #eee;
-}
-
-.title {
-    margin-right: 15px;
-    font-weight: bold;
-}
-
-#info_home_list li {
-    padding: 6px;
-}
-
-#info_home_list {
-    background-color: #ffffff6b;
-    border-radius: 10px;
-    padding: 30px;
-}
-
-#my_name {
-    font-size: 50px
 }

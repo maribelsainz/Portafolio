@@ -1,0 +1,38 @@
+#home {
+    padding-top: 100px;
+    background-image: url(../img/Fondo\ Home.jpg);
+    background-size: cover;
+}
+
+#info_home {
+    text-align: center;
+}
+
+#info_home_list {
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+    margin: 0;
+    padding: 15px 0 30px;
+}
+
+#my_profesion {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700;
+    margin: 15px;
+}
+
+#info_home_list li {
+    padding: 6px;
+}
+
+#info_home_list {
+    background-color: #ffffff6b;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#my_name {
+    font-size: 50px
+}
